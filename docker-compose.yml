@@ -1,3 +1,5 @@
+#docker-compose.yml defines and starts all 4 services as separate containers that work together as one application
+
 version: '3.8'
 
 services:

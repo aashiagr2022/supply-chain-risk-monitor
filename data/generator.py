@@ -1,3 +1,5 @@
+#creates and generates initial data for the database tables before we call an external API
+
 import random
 import uuid
 from datetime import datetime, timedelta

@@ -1,3 +1,5 @@
+#producer.py generates a supplier performance event every 3 seconds and publishes it to a Kafka topic called supplier-events. The consumer independently reads from that topic — the producer never communicates with the consumer directly
+
 from kafka import KafkaProducer
 from kafka.errors import NoBrokersAvailable
 import json

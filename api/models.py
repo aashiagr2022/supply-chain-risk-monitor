@@ -1,3 +1,5 @@
+#creates database tables and attributes using Python classes and objects instead of using SQL
+
 from sqlalchemy import Column, String, Float, Integer, DateTime, Boolean, Text
 from sqlalchemy.sql import func
 from api.database import Base
